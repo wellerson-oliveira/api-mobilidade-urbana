@@ -7,10 +7,10 @@ Para esse código rodar, os seguintes requisitos são necessários:
 
 ## How to run
 1. Acesse o arquivo ./config/prod.conf e preencha as informações de acordo com o ambiente GCP que você tem. As informações são:
-    1. **project_id**: Nome do projeto GCP
-    2. **bucket_name**: Nome do bucket onde os arquivos serão salvos no seu estado bruto
-    3. **dataset_name**: Dataset do bigquery onde ficará a tabela final
-    4. **table_name**: Nome da tabela final
+    * **project_id**: Nome do projeto GCP
+    * **bucket_name**: Nome do bucket onde os arquivos serão salvos no seu estado bruto
+    * **dataset_name**: Dataset do bigquery onde ficará a tabela final
+    * **table_name**: Nome da tabela final
 
 2. Importe a variável de ambiente do GCP (Linux only)
     2.1 Abra o terminal
