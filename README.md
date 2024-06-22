@@ -6,17 +6,17 @@ Para esse código rodar, os seguintes requisitos são necessários:
 - GCP: O script é feito para escrever os dados no BigQuery e, portanto, precisa de uma SA com permissões para escrita.
 
 ## How to run
-1 - Acesse o arquivo ./config/prod.conf e preencha as informações de acordo com o ambiente GCP que você tem. As informações são:
-    1.1 - *project_id*: Nome do projeto GCP
-    1.2 - *bucket_name*: Nome do bucket onde os arquivos serão salvos no seu estado bruto
-    1.3 - *dataset_name*: Dataset do bigquery onde ficará a tabela final
-    1.4 - *table_name*: Nome da tabela final
+1. - Acesse o arquivo ./config/prod.conf e preencha as informações de acordo com o ambiente GCP que você tem. As informações são:
+    1. - *project_id*: Nome do projeto GCP
+    2. - *bucket_name*: Nome do bucket onde os arquivos serão salvos no seu estado bruto
+    3. - *dataset_name*: Dataset do bigquery onde ficará a tabela final
+    4. - *table_name*: Nome da tabela final
 
-2 - Importe a variável de ambiente do GCP (Linux only)
+2. - Importe a variável de ambiente do GCP (Linux only)
     2.1 - Abra o terminal
     2.2 - Execute o comando: export GOOGLE_APPLICATION_CREDENTIALS=/path/to/sa/sa_name.json
 
-3 - Instale as libs
+3. - Instale as libs
     3.1 - No terminal, navegue até a pasta raiz do projeto
     3.2 - Se quiser usar algum ambiente virtual, pode criar nesse momento
     3.3 - Rode o comando "pip install -r requirements.txt"
