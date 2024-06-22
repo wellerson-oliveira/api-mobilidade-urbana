@@ -13,17 +13,17 @@ Para esse código rodar, os seguintes requisitos são necessários:
     * **table_name**: Nome da tabela final
 
 2. Importe a variável de ambiente do GCP (Linux only)
-    2.1 Abra o terminal
-    2.2 Execute o comando: export GOOGLE_APPLICATION_CREDENTIALS=/path/to/sa/sa_name.json
+    * Abra o terminal
+    * Execute o comando: export GOOGLE_APPLICATION_CREDENTIALS=/path/to/sa/sa_name.json
 
 3. Instale as libs
-    3.1 No terminal, navegue até a pasta raiz do projeto
-    3.2 Se quiser usar algum ambiente virtual, pode criar nesse momento
-    3.3 Rode o comando "pip install -r requirements.txt"
+    * No terminal, navegue até a pasta raiz do projeto
+    * Se quiser usar algum ambiente virtual, pode criar nesse momento
+    * Rode o comando "pip install -r requirements.txt"
 
-4 Rode o script
-    4.1 No terminal, navegue até a pasta raiz do projeto
-    4.2 Rode o comando "python3 main.py"
+4. Rode o script
+    * No terminal, navegue até a pasta raiz do projeto
+    * Rode o comando "python3 main.py"
 
 ## Limitações
 Por se tratar de um projeto de demonstração, o projeto possui algumas limitações. As principais:
